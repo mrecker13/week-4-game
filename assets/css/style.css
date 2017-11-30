@@ -1,0 +1,55 @@
+body {
+    background-image: url('../images/background.jpg');
+    color: white;
+}
+
+.banner, .instructions, .winning-score, .wins-losses, .your-score-banner, .your-score {
+    border: 2px solid white;
+}
+
+.banner {
+    text-align: center;
+    background-color: black;
+}
+
+.instructions {
+    background-color: rgb(63, 105, 168);
+    font-size: 16px;
+    font-family: 'Open Sans', sans-serif;
+    padding: 10px;
+}
+
+.winning-score {
+    height: 125px;
+    font-size: 75px;
+    background-color: rgb(63, 105, 168);
+    text-align: center;
+    padding-top: 10px;
+}
+
+.wins-losses {
+    height: 150px;
+    padding-top: 10px;
+    background-color: rgb(63, 105, 168);
+}
+
+img {
+    width: 125px;
+    height: 125px;
+    float: left;
+}
+
+.your-score-banner {
+    background-color: black;
+    padding-top: 5px;
+}
+
+.your-score {
+    height: 125px;
+    font-size: 75px;
+    background-color: black;
+    text-align: center;
+    padding-top: 10px;
+}
+
+
